@@ -202,6 +202,10 @@
   line-height: 2.5rem;
 }
 
+.ajudar {
+  width: 75%;
+}
+
 @media only screen and (max-width: 600px) {
   
   .bonus-image-left, .bonus-image-right{
@@ -234,6 +238,10 @@
   padding-left: 2rem;
   padding-right: 2rem;
 }
+
+.ajudar {
+  width: 100%;
+}
 }
 
 .dotted-line {
@@ -250,4 +258,31 @@ p {
 
 .h2, h2 {
   font-size: calc(1.325rem + .9vw);
+}
+
+
+@media only screen and (max-width: 400px) {
+  .wraper {
+    margin-left: 0.5rem;
+    margin-right: 0.5rem;
+}
+  .wraper h1 {
+    font-size: 2rem;
+}
+
+h2 {
+  font-size: calc(1.8rem + .9vw);
+}
+
+.ajudar h3 {
+  font-size: calc(1.8rem + .6vw);
+}
+
+.section-price h3 {
+  font-size: 2rem;
+}
+
+.text-section-price p {
+  font-size: 1.6rem;
+}
 }

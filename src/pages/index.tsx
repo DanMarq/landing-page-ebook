@@ -77,8 +77,8 @@ export default function Home() {
           </Container>
         </header>
 
-        <section className='py-5 solucao'>
-         <div className='py-5'>
+        <section className='py-3 py-lg-5 solucao'>
+         <div className='py-3 py-lg-5'>
          <Row className='px-3 px-lg-5 py-5 mx-0'>
 
          <Col lg={{span: 4, offset: 2}} className=''>
@@ -170,12 +170,12 @@ export default function Home() {
          </div>
         </section>
 
-        <section className='py-5 desafio'>
-         <div className='py-5'>
+        <section className='py-lg-5 py-3 desafio'>
+         <div className='py-lg-5 py-3'>
           <Row className='px-3 px-lg-5 mx-0'>
 
             <Col lg={{span: 4, offset: 2}} className='mt-5'>
-                  <h2>
+                  <h2 className='mb-4'>
                   Pensando em todos esses pontos eu criei o <span className='title-bold'>E-book: Você Morando Legalmente nos Estados Unidos</span>
                   </h2>
                   <p>
@@ -194,7 +194,7 @@ export default function Home() {
 
             <Col lg={6} className='text-center mt-5'>
                   <Image src={'/assets/ebook-morando-legalmente-usa.png'} width={500} height={661} className='img-fluid' alt='' />
-                 <div className='text-end w-75'>
+                 <div className='text-end ajudar'>
                       <h3 className=''>E como forma de ajudar você, <span className='title-bold'>este ebook custa menos do que um <span className="text-decoration-underline"><IoFastFoodOutline className='me-2' />Big Mac!</span></span>
                         </h3>
                         <p className='mt-4'>de <span className='text-decoration-line-through'>R$ {ebookPrincipal.toFixed(2).replace('.', ',')}</span> por 
@@ -219,11 +219,11 @@ export default function Home() {
               </Row>
 
               <Row className='mb-5'>
-                <Col lg={6} className='bonus-image-left'>
+                <Col lg={6} className='bonus-image-left order-2 order-lg-1'>
                       <Image src={'/assets/ebook-eb2-niw.png'} width={300} height={396} className='img-fluid' alt='' />
                 </Col>
 
-                <Col lg={{span: 4, offset: 0}} className='d-flex flex-column justify-content-center'>
+                <Col lg={{span: 4, offset: 0}} className='d-flex flex-column justify-content-center order-1 order-lg-2'>
                       <h3 className='mb-4 title-medium'>Ebook EB-2 NIW O caminho para a Residência Permanente nos EUA </h3>
                       <p>
                       Com todas as informações sobre um dos vistos mais desejados por profissionais de diversas áreas, mostrando os pontos de atenção e caminhos específicos para a conquista deste visto.
@@ -254,10 +254,10 @@ export default function Home() {
               </Row>
 
               <Row className='mb-5'>
-                <Col lg={6} className='bonus-image-left'>
+                <Col lg={6} className='bonus-image-left order-2 order-lg-1'>
                       <Image src={'/assets/resume.png'} width={380} height={396} className='img-fluid' alt='' />
                 </Col>
-                <Col lg={{span: 4, offset: 0}} className='d-flex flex-column justify-content-center'>
+                <Col lg={{span: 4, offset: 0}} className='d-flex flex-column justify-content-center order-1 order-lg-2'>
                       <h3 className='mb-4 title-medium'>
                         Template de Currículo - Estrutura para Conquistar Oportunidades nos Estados Unidos
                       </h3>
@@ -361,7 +361,7 @@ export default function Home() {
           </Container>
         </section>
 
-        <section className='py-5 lg:px-5 section-price'>
+        <section className='py-5 px-3 lg:px-5 section-price'>
           <Container className='py-5'>
             <Row>
               <Col lg={6}>
