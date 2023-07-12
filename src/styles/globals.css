@@ -82,7 +82,7 @@
 }
 
 
-.desafio {
+.guia {
   background-image: url('/assets/white-bg.jpg');
   background-repeat: no-repeat;
   background-position: center;
@@ -90,7 +90,7 @@
   color: var(--dark-color);
 }
 
-.solucao {
+.atalhos {
   background-image: url('/assets/solucao-usa.jpg');
   background-repeat: no-repeat;
   background-position: center;
@@ -203,7 +203,8 @@
 }
 
 .ajudar {
-  width: 75%;
+  width: 50%;
+  margin: 0 auto;
 }
 
 @media only screen and (max-width: 600px) {
