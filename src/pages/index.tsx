@@ -80,7 +80,7 @@ export default function Home() {
                 <p>Por tempo limitado <b>Ebook + os 4 bônus de:</b></p>
                 <h5>de {totalValor.toFixed(2).replace('.', ',')} por</h5>
                 <div className='section-price-desconto'>
-                  <h6><span>R$</span>0,00</h6>
+                  <h6><span>R$</span>29,90</h6>
                 </div>
                 <p>Isso mesmo, completamente <b>GRÁTIS!</b></p>
                 <Button className='mt-3' size='lg'>Adiquira agora o seu ebook</Button>

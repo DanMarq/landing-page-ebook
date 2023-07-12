@@ -1,6 +1,6 @@
 import { Col, Container, Row } from "react-bootstrap";
 
-import prices from "../constants/prices";
+import * as prices from '../utils/prices'
 
 export default function SectionDesconto() {
     return (

@@ -1,7 +1,7 @@
 import { Col, Container, Row } from "react-bootstrap";
 import Image from "next/image";
 
-import prices from "../constants/prices";
+import * as prices from '../utils/prices'
 
 export default function SectionBonus() {
     return (
