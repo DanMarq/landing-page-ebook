@@ -3,7 +3,7 @@ import { Col, Row } from "react-bootstrap";
 import { BsFillBookmarkCheckFill } from "react-icons/bs";
 import { IoFastFoodOutline } from "react-icons/io5";
 
-import * as prices from '../utils/prices'
+import * as prices from '../../utils/prices'
 
 export default function SectionGuia() {
 
