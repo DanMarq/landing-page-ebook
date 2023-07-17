@@ -11,37 +11,16 @@ export default function SectionAtalhos() {
                   Sim, existem atalhos legais que vão te <span className='title-bold'>fazer chegar onde quer!</span>
                 </h2>
 
-                <p>
-                Não estou falando em <b>jeitinho</b> não, pois depois de anos correndo atrás do sonho da minha família, pude entender cada passo dado e descobrir os caminhos mais curtos para morar legalmente nos EUA.</p>
-                
-                <p>
-                Além disso, descobri os caminhos certos que me fizeram economizar (além de muito tempo) muito dinheiro para conquistar o Green Card!
-                </p>
-                
-                <p>
-                Sim, após anos residindo nos Estados Unidos, e tendo apresentado esse
-                mesmo caminho para diversos amigos próximos, tenho segurança para dizer
-                que você também pode construir o seu próprio caminho sem perder tanto
-                tempo ou dinheiro nesse processo.
-                </p>
-                
-                <p>
-                Se você tem a vontade de morar em um país que te abre infinitas portas, traz
-                qualidade de vida para você e sua família, te coloca profissionalmente em
-                posições diferenciadas, morar legalmente nos Estados Unidos deve ser o seu
-                objetivo principal!
-                </p>
-                
-                <p>
-                Sendo consultado por mais e mais pessoas interessadas em fazer este
-                processo de imigração, resolvi reunir esse conhecimento valiosíssimo em um
-                material fácil e muito prático de ler.
-                </p>
-                
-                <p>
-                Tenho certeza que você irá enxergar de
-                forma muito mais clara como trilhar o seu caminho até o Sonho Americano.
-                </p>
+               <p>
+               Perseguindo o sonho de minha família, <b>descobri os caminhos mais curtos e econômicos para morar legalmente nos Estados Unidos.</b> Após anos de dedicação e compartilhando esse conhecimento com amigos próximos, posso afirmar com segurança que é possível construir seu próprio caminho rumo ao Sonho Americano sem perder tempo ou dinheiro nesse processo.
+               </p>
+               <p>
+               Morar legalmente nos EUA oferece oportunidades profissionais diferenciadas, qualidade de vida para você e sua família, além de abrir portas para um futuro promissor. Um dos passos fundamentais nesse processo é a obtenção do <b>Green Card</b>, que garante a residência permanente no país.
+               </p>
+
+               <p>
+               Decidi reunir todo esse conhecimento valiosíssimo em um material prático e de fácil compreensão. Nele, você encontrará orientações claras para trilhar o seu caminho até o Sonho Americano de forma segura e eficiente. Prepare-se para entender cada passo dado, economizar tempo e dinheiro, e conquistar a tão desejada moradia legal nos Estados Unidos.
+               </p>
 
                 <Button className='mt-4'>Quero essa oportunidade</Button>
             </Col>

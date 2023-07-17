@@ -26,20 +26,20 @@ export default function SectionDicas() {
                Vou começar já <span className='title-bold'>te ajudando com essas dicas!</span>
                </h2>
                
-                 <h4 className='mb-3'>O que eu <b className='text-uppercase text-danger'>não faria</b> em seu lugar:</h4>
+                 <h4 className='mb-4'>O que eu <b className='text-uppercase text-danger'>não faria</b> em seu lugar:</h4>
                      <ul className='list-group mb-4'>
                       {naoFaria.map((conteudo, i)=>(
-                        <li key={i} className='list-group-item list-group-item-danger text-white bg-transparent p-4'>
+                        <li key={i} className='list-group-item list-group-item-danger text-white bg-transparent p-4 fs-4'>
                         <BsXCircle className='me-2 fs-4 text-danger' />
                         {conteudo}
                         </li>
                       ))}
                    </ul>  
 
-                   <h4 className='mb-3'>O que <b className='text-uppercase text-info'>eu faria</b> em seu lugar</h4>
+                   <h4 className='mb-4'>O que <b className='text-uppercase text-info'>eu faria</b> em seu lugar</h4>
                      <ul className='list-group'>
                       {faria.map((conteudo, i)=>(
-                        <li key={i} className='list-group-item list-group-item-info text-white bg-transparent p-4'>
+                        <li key={i} className='list-group-item list-group-item-info text-white bg-transparent p-4 fs-4'>
                         <BsCheckCircle className='me-2 fs-4 text-info'/>
                         {conteudo}
                         </li>

@@ -5,7 +5,7 @@ import * as prices from '../../utils/prices'
 
 export default function SectionBonus() {
     return (
-        <section className='px-3 px-lg-5 bonus'>
+        <section className='px-3 px-lg-5 bonus' id="bonus">
             <Container className='py-5'>
               <Row className='mb-5'>
                 <Col lg={12} className='text-center'>
@@ -57,7 +57,7 @@ export default function SectionBonus() {
                 </Col>
                 <Col lg={{span: 4, offset: 0}} className='d-flex flex-column justify-content-center order-1 order-lg-2'>
                       <h3 className='mb-4 title-medium'>
-                        Template de Currículo - Estrutura para Conquistar Oportunidades nos Estados Unidos
+                      Template Currículo - Estrutura ideal para a sua jornada até o visto desejado
                       </h3>
                       <p>
                       Template de modelo de Currículo com estrutura e explicação, para que possa adiantar um processo importante em sua jornada para a conquista do visto desejado
@@ -73,7 +73,7 @@ export default function SectionBonus() {
                 <Col lg={{span: 4, offset: 2}} className='d-flex flex-column justify-content-center'>
                       <h3 className='mb-4 title-medium'>Página de Informações - Consulta com Especialista em Imigração</h3>
                       <p>
-                      Acesso a uma entrevista gratuita com uma empresa especializada em processos imigratórios para os Estados Unidos. Um escritório Americano, falando em seu idioma e que pode te ajudar a esclarecer dúvidas e encontrar os seus pontos fortes no processo de obtenção do sonhado visto.
+                      Acesso a empresas especializadas em processo imigratório mediante a apresentação do seu curriculo. Um escritório americano falando em seu idioma que vai te ajudar a esclarecer dúvidas e encontrar os seus pontos fortes no processo de obtenção do sonhado visto.
                       </p>
                       <p className='fs-4 fw-bold'>
                       <span className='text-decoration-line-through fs-6 fw-normal'>

@@ -1,6 +1,6 @@
 import Image from "next/image";
-import { Col, Row } from "react-bootstrap";
-import { BsFillBookmarkCheckFill } from "react-icons/bs";
+import { Col, Row, } from "react-bootstrap";
+import { BsFillBookmarkCheckFill, BsArrowDownCircle } from "react-icons/bs";
 import { IoFastFoodOutline } from "react-icons/io5";
 
 import * as prices from '../../utils/prices'
@@ -9,12 +9,9 @@ export default function SectionGuia() {
 
     const ebookTopicos = [
         'Quem pode morar nos Estados Unidos?',
-        'Qual é a diferença entre um Visto para morar, o Green Card e ser considerado um(a) cidadã(o) Americano',
         'Quais são os vistos que dão direito ao Green Card?',
         'Quais são os estados com melhor Custo x Benefício?',
-        'Como arrumar emprego, legalmente, nos Estados Unidos?',
         'O que fazer para ter um processo tranquilo e sem surpresas',
-        'Como funciona a questão de imposto de renda nos Estados Unidos',
         'E mais. . .'
       ]
 
@@ -54,8 +51,9 @@ export default function SectionGuia() {
                       <h3 className=''>E como forma de ajudar você, <span className='title-bold'>este ebook custa menos do que um <span className="text-decoration-underline"><IoFastFoodOutline className='me-2' />Big Mac!</span></span>
                         </h3>
                         <p className='mt-4'>de <span className='text-decoration-line-through'>R$ {prices.ebookPrincipal.toFixed(2).replace('.', ',')}</span> por 
-                        <span className='fs-1 text-bold'> R$ 19,90</span>
+                        <span className='fs-1 text-bold'>R$ {prices.valorComDesconto.toFixed(2).replace('.', ',')}</span>
                         </p>
+                        <p className="d-flex align-items-center justify-content-end"><a href='#bonus'>E MAIS BÔNUS ESPECIAIS <BsArrowDownCircle /></a></p>
                  </div>
             </Col>
 
