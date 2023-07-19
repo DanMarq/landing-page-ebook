@@ -1,6 +1,5 @@
 import { Container } from "react-bootstrap"
 import Image from "next/image"
-import { BsFacebook, BsInstagram, BsLinkedin } from "react-icons/bs";
 
 const ano = new Date().getFullYear()
 
@@ -12,7 +11,7 @@ export default function Footer() {
                 <a href="" className="mb-3 me-2 mb-md-0 text-decoration-none lh-1">
                     <Image src={'/assets/bandeirinha.png'} width={34} height={24} alt="" />
                 </a>
-                <span className="mb-3 mb-md-0 text-muted">© {ano} Você Morando Legalmente nos Estados Unidos</span>
+                <span className="mb-3 mb-md-0 text-muted copyright">© {ano} Você Morando Legalmente nos Estados Unidos</span>
             </div>
         </footer>
        </Container>

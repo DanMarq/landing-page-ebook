@@ -1,7 +1,4 @@
 import Head from 'next/head'
-import Image from 'next/image'
-
-import {Container, Row, Col, Button} from 'react-bootstrap'
 
 import { Barlow } from 'next/font/google'
 import Footer from './components/Footer'
@@ -22,14 +19,6 @@ const barlow = Barlow({
   subsets: ['latin'],
 })
 
-/* Valores Ebook */
-const ebookPrincipal:number = 97.00
-const ebookEb2Niw:number = 49.00
-const ebookBonus:number = 49.90
-const templateCurriculo:number = 29.90
-const paginaMigration:number = 299.00
-const totalValor:number = ebookPrincipal + ebookEb2Niw + ebookBonus + templateCurriculo + paginaMigration
-
 export default function Home() {
   return (
     <>
@@ -45,15 +34,15 @@ export default function Home() {
       </Head>
       <main className={barlow.className}>
           <SectionHeader
-            texto='Saiba mais sobre os vistos EB-2 NIW, EB-2, EB-5 e muitos outros procurados por Brasileiros que querem morar legalmente nos Estados Unidos.'
+            texto={<h1>Você <span className='title-bold'>morando legalmente</span> nos estados unidos</h1>}
+            subtexto='Saiba mais sobre os vistos EB-2 NIW, EB-2, EB-5 e muitos outros procurados por Brasileiros que querem morar legalmente nos Estados Unidos.'
           />
           <SectionAtalhos />
           <SectionDicas />
           <SectionGuia />
           <SectionBonus />
-          <SectionGarantia />
-          <SectionDesconto />
           <SectionProduto />
+          <SectionGarantia />
           <SectionOportunidade />
           <SectionFaq />
       </main>

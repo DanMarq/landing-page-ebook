@@ -5,7 +5,7 @@ import {Container, Row, Col} from 'react-bootstrap'
 export default function SectionGarantia() {
 
     return (
-        <section className='px-3 px-lg-5'>
+        <section className='px-3 px-lg-5 garantia'>
             <Container className='py-5'>
               <Row>
                 <Col lg={12} className='text-center'>
