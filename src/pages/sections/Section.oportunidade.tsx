@@ -1,4 +1,5 @@
-import {Container, Col, Button} from 'react-bootstrap'
+import {Container, Col} from 'react-bootstrap'
+import Botao from '../components/Button'
 
 export default function SectionOportunidade() {
 
@@ -16,7 +17,7 @@ export default function SectionOportunidade() {
                 <br />
                 Viva a emoção de morar nos Estados Unidos e comece uma nova e incrível jornada em um dos países mais promissores do mundo.
               </p>
-              <Button className='mt-5 white-bg'>Adiquira agora o seu ebook</Button>
+              <Botao classStyle='mt-5 white-bg' text='Adquira agora o seu ebook' />
             </Col>
           </Container>
         </section>

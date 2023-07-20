@@ -1,4 +1,5 @@
 import { Button, Col, Row } from "react-bootstrap";
+import Botao from "../components/Button";
 
 export default function SectionAtalhos() {
     return (
@@ -21,8 +22,7 @@ export default function SectionAtalhos() {
                <p>
                Decidi reunir todo esse conhecimento valiosíssimo em um material prático e de fácil compreensão. Nele, você encontrará orientações claras para trilhar o seu caminho até o Sonho Americano de forma segura e eficiente. Prepare-se para entender cada passo dado, economizar tempo e dinheiro, e conquistar a tão desejada moradia legal nos Estados Unidos.
                </p>
-
-                <Button className='mt-4'>Quero essa oportunidade</Button>
+                <Botao classStyle="mt-4" text="Quero essa oportunidade" />
             </Col>
 
             <Col lg={6}>

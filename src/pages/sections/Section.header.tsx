@@ -3,6 +3,7 @@ import Video from '../components/Video'
 
 import { Player} from '@lottiefiles/react-lottie-player';
 import { ReactNode } from 'react';
+import Botao from '../components/Button';
 
 interface HeaderProps {
   texto: ReactNode
@@ -30,7 +31,9 @@ export default function SectionHeader({texto, subtexto}:HeaderProps) {
                   {texto}
                   <h2>{subtexto}</h2>
                   <Video />
-                  <Button className='mt-3 white-bg' size='lg'>Adquira agora o seu ebook</Button>
+                 <a href='#adquira-agora'>
+                 <Button className='mt-5 white-bg'>Adquira agora o seu ebook</Button>
+                 </a>
                 </div>
               </Col>
             </Row>

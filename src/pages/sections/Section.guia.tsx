@@ -4,6 +4,7 @@ import { BsFillBookmarkCheckFill, BsArrowDownCircle } from "react-icons/bs";
 import { IoFastFoodOutline } from "react-icons/io5";
 
 import * as prices from '../../utils/prices'
+import Botao from "../components/Button";
 
 export default function SectionGuia() {
 
@@ -57,6 +58,11 @@ export default function SectionGuia() {
                  </div>
             </Col>
 
+          </Row>
+          <Row className="mx-0">
+            <Col lg={12} className="text-center">
+              <Botao text="Não perca essa oportunidade" classStyle="mt-5" />
+            </Col>
           </Row>
         </div>
         </section>

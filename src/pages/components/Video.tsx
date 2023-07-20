@@ -1,15 +1,14 @@
 import dynamic from 'next/dynamic'
-const ReactPlayer = dynamic(() => import("react-player"), { ssr: false });
+const ReactPlayer = dynamic(() => import("react-player/youtube"), { ssr: false });
 
-const videoLink = 'https://media.w3.org/2010/05/sintel/trailer_hd.mp4'
+const videoLink = 'https://youtu.be/CIW1KhDMJZE'
 
 export default function Video() {
     return (
        <>
         <ReactPlayer
-            controls
             width='100%'
-            height='auto'
+            height='450px'
             className="video-player"
             url={videoLink} />
        </>
