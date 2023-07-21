@@ -1,4 +1,5 @@
 import Head from 'next/head'
+import Image from 'next/image';
 
 import { Barlow } from 'next/font/google'
 import Footer from './components/Footer'
@@ -30,7 +31,7 @@ export default function Home() {
         <link rel="apple-touch-icon" sizes="180x180" href="assets/favicon/apple-touch-icon.png" />
         <link rel="icon" type="image/png" sizes="32x32" href="assets/favicon/favicon-32x32.png" />
         <link rel="icon" type="image/png" sizes="16x16" href="assets/favicon/favicon-16x16.png" />
-        
+        <noscript><Image height="1" width="1" alt='' style={{ display: 'none' }} src="https://www.facebook.com/tr?id=851288690163546&ev=PageView&noscript=1"/></noscript>
       </Head>
       <main className={barlow.className}>
           <SectionHeader
