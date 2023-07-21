@@ -8,7 +8,7 @@ export default function App({ Component, pageProps }: AppProps) {
     <>
     <Component {...pageProps} />
     <Script
-    id = 'facebook-pixel'
+    id = '851288690163546'
     dangerouslySetInnerHTML={{
         __html: `!function(f,b,e,v,n,t,s)
         {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
@@ -18,7 +18,7 @@ export default function App({ Component, pageProps }: AppProps) {
         t.src=v;s=b.getElementsByTagName(e)[0];
         s.parentNode.insertBefore(t,s)}(window, document,'script',
         'https://connect.facebook.net/en_US/fbevents.js');
-        fbq('init', '243597755142259');
+        fbq('init', '851288690163546');
         fbq('track', 'PageView');`
     }}
     >
