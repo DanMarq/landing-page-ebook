@@ -9,7 +9,7 @@ interface ButtonContent {
 
 export default function Botao ({text, classStyle}:ButtonContent) {
     return (
-       <Link href={'https://bit.ly/3Q84mGa'}>
+       <Link href={'https://bit.ly/3Dt85q7'}>
          <Button className={classStyle}>{text}</Button>
        </Link>
     )
