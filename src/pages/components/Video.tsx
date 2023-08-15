@@ -1,7 +1,7 @@
 import dynamic from 'next/dynamic'
 const ReactPlayer = dynamic(() => import("react-player/youtube"), { ssr: false });
 
-const videoLink = 'https://youtu.be/CIW1KhDMJZE'
+const videoLink = 'https://youtu.be/9ejRcmP9UnU'
 
 export default function Video() {
     return (
